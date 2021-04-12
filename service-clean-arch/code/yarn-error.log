@@ -1,0 +1,38 @@
+Arguments: 
+  /snap/node/3292/bin/node /home/rafael/.yarn/bin/yarn.js add express nodemon
+
+PATH: 
+  /home/rafael/.yarn/bin:/home/rafael/.config/yarn/global/node_modules/.bin:/home/rafael/.yarn/bin:/home/rafael/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/rafael/Android/Sdk/emulator:/home/rafael/Android/Sdk/tools:/home/rafael/Android/Sdk/tools/bin:/home/rafael/Android/Sdk/platform-tools:/home/rafael/Android/Sdk/emulator:/home/rafael/Android/Sdk/tools:/home/rafael/Android/Sdk/tools/bin:/home/rafael/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/home/rafael/projetos/clean_arch/service-clean-arch/code/node_modules/abbrev'
+
+npm manifest: 
+  {
+    "name": "code",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "nodemon ./server/server.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
