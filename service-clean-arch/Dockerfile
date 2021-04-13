@@ -1,11 +1,11 @@
-FROM node:13
+FROM node:14
 
 
 WORKDIR /app
 
 COPY ./code/package.json .
 
-RUN npm i typescript --save-dev && npx tsc --init && npm i nodemon --save
+RUN npm install -g ts-node
 RUN npm install
 
 CMD [ "sh", "-c", "npm run start" ]

@@ -1,0 +1,4 @@
+.env
+/service-clean-arch/code/node_modules
+/service-clean-arch/code/dist
+/service-clean-arch/code/yarn.lock
